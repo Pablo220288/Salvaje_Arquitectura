@@ -29,24 +29,24 @@ main {
       justify-content: flex-start;
       align-items: center;
       padding: 10px;
-      margin-bottom: 50px;
+      margin-bottom: 100px;
       img {
-        width: 200px;
+        width: 250px;
       }
     }
     .textOne,
     .textTwo {
-      width: 200px;
+      width: 270px;
       color: white;
       text-align: center;
       letter-spacing: 2px;
-      font-size: 14px;
+      font-size: 20px;
       font-weight: 100;
-      margin-bottom: 20px;
+      margin-bottom: 30px;
     }
     .textTwo {
       letter-spacing: 1px;
-      font-size: 10px;
+      font-size: 14px;
     }
     .redes {
       width: 100%;
@@ -59,7 +59,7 @@ main {
         img {
           opacity: 0.8;
           transition: all 0.3s ease-in-out;
-          width: 30px;
+          width: 35px;
         }
         &:hover img {
           opacity: 1;
@@ -67,7 +67,7 @@ main {
       }
       .mail {
         img {
-          width: 34px;
+          width: 39px;
         }
       }
     }

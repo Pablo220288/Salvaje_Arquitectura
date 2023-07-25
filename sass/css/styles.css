@@ -31,24 +31,24 @@ main .mainContainer .logo {
   justify-content: flex-start;
   align-items: center;
   padding: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 main .mainContainer .logo img {
-  width: 200px;
+  width: 250px;
 }
 main .mainContainer .textOne,
 main .mainContainer .textTwo {
-  width: 200px;
+  width: 270px;
   color: white;
   text-align: center;
   letter-spacing: 2px;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 100;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 main .mainContainer .textTwo {
   letter-spacing: 1px;
-  font-size: 10px;
+  font-size: 14px;
 }
 main .mainContainer .redes {
   width: 100%;
@@ -61,14 +61,14 @@ main .mainContainer .redes .insta img,
 main .mainContainer .redes .mail img {
   opacity: 0.8;
   transition: all 0.3s ease-in-out;
-  width: 30px;
+  width: 35px;
 }
 main .mainContainer .redes .insta:hover img,
 main .mainContainer .redes .mail:hover img {
   opacity: 1;
 }
 main .mainContainer .redes .mail img {
-  width: 34px;
+  width: 39px;
 }
 
 /*# sourceMappingURL=styles.css.map */
