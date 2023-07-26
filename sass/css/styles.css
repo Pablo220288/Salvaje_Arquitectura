@@ -8,13 +8,11 @@
 main {
   width: 100%;
   height: 100vh;
-  background-image: url("../../assets/FONDO-WEB-PNG.png");
+  background-image: url("../../assets/FONDO WEB SALVAJE 3840 x 2160.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%, 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
 }
 main .mainContainer {
   width: 350px;
@@ -51,6 +49,10 @@ main .mainContainer .textTwo {
   font-size: 14px;
 }
 main .mainContainer .redes {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 70px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -59,16 +61,16 @@ main .mainContainer .redes {
 }
 main .mainContainer .redes .insta img,
 main .mainContainer .redes .mail img {
-  opacity: 0.8;
+  opacity: 1;
   transition: all 0.3s ease-in-out;
-  width: 35px;
+  width: 30px;
 }
 main .mainContainer .redes .insta:hover img,
 main .mainContainer .redes .mail:hover img {
   opacity: 1;
 }
 main .mainContainer .redes .mail img {
-  width: 39px;
+  width: 34px;
 }
 
 /*# sourceMappingURL=styles.css.map */
