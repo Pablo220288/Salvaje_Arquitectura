@@ -11,7 +11,7 @@ main {
   background-image: url("../../assets/FONDO WEB SALVAJE 3840 x 2160.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: 50% 50%;
   position: relative;
   overflow: hidden;
 }
@@ -53,7 +53,7 @@ main .mainContainer .redes {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 39rem;
+  top: 480px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -67,14 +67,14 @@ main .mainContainer .redes .mail {
 }
 main .mainContainer .redes .insta img,
 main .mainContainer .redes .mail img {
-  width: 40px;
+  width: 30px;
 }
 main .mainContainer .redes .insta:hover,
 main .mainContainer .redes .mail:hover {
   opacity: 1;
 }
 main .mainContainer .redes .mail img {
-  width: 44px;
+  width: 34px;
 }
 
 /*# sourceMappingURL=styles.css.map */

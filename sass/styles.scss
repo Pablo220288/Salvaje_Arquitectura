@@ -11,7 +11,7 @@ main {
   background-image: url("../../assets/FONDO\ WEB\ SALVAJE\ 3840\ x\ 2160.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 0%;
+  background-position: 50% 50%;
   position: relative;
   overflow: hidden;
   .mainContainer {
@@ -51,7 +51,7 @@ main {
       position: absolute;
       left: 50%;
       transform: translateX(-50%);
-      top: 39rem;
+      top: 480px;
       width: 100%;
       display: flex;
       justify-content: center;
@@ -62,7 +62,7 @@ main {
         opacity: 0.8;
         transition: all 0.3s ease-in-out;
         img {
-          width: 40px;
+          width: 30px;
         }
         &:hover {
           opacity: 1;
@@ -70,7 +70,7 @@ main {
       }
       .mail {
         img {
-          width: 44px;
+          width: 34px;
         }
       }
     }
