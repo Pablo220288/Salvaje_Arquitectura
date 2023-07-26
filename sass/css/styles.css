@@ -13,6 +13,9 @@ main {
   background-size: cover;
   background-position: 50% 50%;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
 }
 main .mainContainer {
@@ -50,11 +53,8 @@ main .mainContainer .textTwo {
   font-size: 14px;
 }
 main .mainContainer .redes {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  top: 480px;
   width: 100%;
+  padding-top: 40rem;
   display: flex;
   justify-content: center;
   align-items: center;
