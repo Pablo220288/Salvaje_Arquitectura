@@ -10,9 +10,10 @@ main {
   height: 100vh;
   background-image: url("../../assets/FONDO\ WEB\ SALVAJE\ 3840\ x\ 2160.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto 100%;
   background-position: 50%, 50%;
   position: relative;
+  overflow: hidden;
   .mainContainer {
     width: 350px;
     display: flex;
@@ -50,28 +51,26 @@ main {
       position: absolute;
       left: 50%;
       transform: translateX(-50%);
-      bottom: 70px;
+      bottom: 11rem;
       width: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 30px;
+      gap: 40px;
       .insta,
       .mail {
+        opacity: 0.8;
+        transition: all 0.3s ease-in-out;
         img {
-          opacity: 1;
-          transition: all 0.3s ease-in-out;
-          width: 30px;
+          width: 40px;
         }
         &:hover {
-          img {
-            opacity: 1;
-          }
+          opacity: 1;
         }
       }
       .mail {
         img {
-          width: 34px;
+          width: 44px;
         }
       }
     }
