@@ -8,7 +8,7 @@
 main {
   width: 100%;
   height: 100vh;
-  background-image: url("../../assets/FONDO WEB SALVAJE 3840 x 2160.png");
+  background-image: url("../../assets/FONDO WEB SALVAJE 3840 x 2160 FOTO SOLA.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -33,10 +33,10 @@ main .mainContainer .logo {
   justify-content: flex-start;
   align-items: center;
   padding: 10px;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 main .mainContainer .logo img {
-  width: 250px;
+  width: 220px;
 }
 main .mainContainer .textOne,
 main .mainContainer .textTwo {
@@ -44,17 +44,16 @@ main .mainContainer .textTwo {
   color: white;
   text-align: center;
   letter-spacing: 2px;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 100;
   margin-bottom: 30px;
 }
 main .mainContainer .textTwo {
   letter-spacing: 1px;
-  font-size: 14px;
+  font-size: 10px;
 }
 main .mainContainer .redes {
   width: 100%;
-  padding-top: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -78,8 +77,14 @@ main .mainContainer .redes .mail img {
 }
 
 @media (min-width: 1000px) {
-  main .mainContainer .redes {
-    padding-top: 550px;
+  main .mainContainer .logo img {
+    width: 250px;
+  }
+  main .mainContainer .textOne {
+    font-size: 20px;
+  }
+  main .mainContainer .textTwo {
+    font-size: 14px;
   }
 }
 
