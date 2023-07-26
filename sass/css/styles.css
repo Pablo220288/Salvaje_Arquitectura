@@ -54,7 +54,7 @@ main .mainContainer .textTwo {
 }
 main .mainContainer .redes {
   width: 100%;
-  padding-top: 500px;
+  padding-top: 550px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,6 +75,12 @@ main .mainContainer .redes .mail:hover {
 }
 main .mainContainer .redes .mail img {
   width: 34px;
+}
+
+@media (min-width: 1000px) {
+  main .mainContainer .redes {
+    padding-top: 500px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

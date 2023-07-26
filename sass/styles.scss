@@ -52,7 +52,7 @@ main {
     }
     .redes {
       width: 100%;
-      padding-top: 500px;
+      padding-top: 550px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -72,6 +72,16 @@ main {
         img {
           width: 34px;
         }
+      }
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  main {
+    .mainContainer {
+      .redes {
+        padding-top: 500px;
       }
     }
   }
