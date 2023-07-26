@@ -54,7 +54,7 @@ main .mainContainer .textTwo {
 }
 main .mainContainer .redes {
   width: 100%;
-  padding-top: 40rem;
+  padding-top: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
