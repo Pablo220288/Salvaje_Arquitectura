@@ -36,7 +36,7 @@ main .mainContainer .logo {
   margin-bottom: 20px;
 }
 main .mainContainer .logo img {
-  width: 220px;
+  width: 250px;
 }
 main .mainContainer .textOne,
 main .mainContainer .textTwo {
@@ -44,13 +44,13 @@ main .mainContainer .textTwo {
   color: white;
   text-align: center;
   letter-spacing: 2px;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 100;
   margin-bottom: 30px;
 }
 main .mainContainer .textTwo {
   letter-spacing: 1px;
-  font-size: 10px;
+  font-size: 13px;
 }
 main .mainContainer .redes {
   width: 100%;
@@ -76,17 +76,23 @@ main .mainContainer .redes .mail img {
   width: 34px;
 }
 
-@media (min-width: 1000px) {
-  main .mainContainer .logo img {
-    width: 250px;
+/* @media (min-width: 1000px) {
+  main {
+    .mainContainer {
+      .logo {
+        img {
+          width: 250px;
+        }
+      }
+      .textOne {
+        font-size: 20px;
+      }
+      .textTwo {
+        font-size: 14px;
+      }
+    }
   }
-  main .mainContainer .textOne {
-    font-size: 20px;
-  }
-  main .mainContainer .textTwo {
-    font-size: 14px;
-  }
-}
+} */
 .loader {
   background: #000000;
   width: 100%;
