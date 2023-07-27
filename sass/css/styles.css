@@ -76,23 +76,54 @@ main .mainContainer .redes .mail img {
   width: 34px;
 }
 
-/* @media (min-width: 1000px) {
-  main {
-    .mainContainer {
-      .logo {
-        img {
-          width: 250px;
-        }
-      }
-      .textOne {
-        font-size: 20px;
-      }
-      .textTwo {
-        font-size: 14px;
-      }
-    }
+@media (min-width: 1600px) {
+  main .mainContainer .logo {
+    margin-bottom: 60px;
   }
-} */
+  main .mainContainer .logo img {
+    width: 400px;
+  }
+  main .mainContainer .textOne,
+  main .mainContainer .textTwo {
+    width: 400px;
+    font-size: 28px;
+    margin-bottom: 50px;
+  }
+  main .mainContainer .textTwo {
+    font-size: 20px;
+  }
+  main .mainContainer .redes .insta img,
+  main .mainContainer .redes .mail img {
+    width: 40px;
+  }
+  main .mainContainer .redes .mail img {
+    width: 44px;
+  }
+}
+@media (min-width: 2500px) {
+  main .mainContainer .logo {
+    margin-bottom: 100px;
+  }
+  main .mainContainer .logo img {
+    width: 550px;
+  }
+  main .mainContainer .textOne,
+  main .mainContainer .textTwo {
+    width: 600px;
+    font-size: 40px;
+    margin-bottom: 80px;
+  }
+  main .mainContainer .textTwo {
+    font-size: 30px;
+  }
+  main .mainContainer .redes .insta img,
+  main .mainContainer .redes .mail img {
+    width: 60px;
+  }
+  main .mainContainer .redes .mail img {
+    width: 64px;
+  }
+}
 .loader {
   background: #000000;
   width: 100%;
