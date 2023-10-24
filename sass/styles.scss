@@ -58,6 +58,7 @@ main {
       gap: 40px;
       .insta,
       .mail {
+        cursor: pointer;
         opacity: 0.8;
         transition: all 0.3s ease-in-out;
         img {
@@ -74,9 +75,91 @@ main {
       }
     }
   }
+  .contactModal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000075;
+    color: #fff;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s visibility ease-in, opacity 0.3s ease-out;
+    visibility: hidden;
+    opacity: 0;
+    .contatWrapper {
+      max-width: 360px;
+      background: #000000e2;
+      padding: 25px 30px;
+      border-radius: 5px;
+      box-shadow: 0px 15px 20px rgba(255, 255, 255, 0.1);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      .contatMain {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        input {
+          height: 100%;
+          width: 100%;
+          outline: none;
+          background: transparent;
+          color: #fff;
+          padding: 5px;
+          border: none;
+          border-bottom: 1px solid lightgrey;
+          border-bottom-width: 2px;
+          font-size: 17px;
+          transition: all 0.3s ease;
+          &::placeholder {
+            font-size: 12px;
+          }
+        }
+      }
+      .contactFooter {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        .btn {
+          all: unset;
+          cursor: pointer;
+          color: #fff;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+
+          span {
+            font-size: 0.8rem;
+          }
+        }
+        .btnSend {
+          font-size: 30px;
+        }
+        .btnCancel {
+          font-size: 33px;
+        }
+      }
+    }
+  }
 }
 
- @media (min-width: 1600px) {
+.contactModalShow {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+@media (min-width: 1600px) {
   main {
     .mainContainer {
       .logo {
@@ -146,7 +229,7 @@ main {
   }
 }
 
-.loader{
+.loader {
   background: #000000;
   width: 100%;
   height: 100vh;
@@ -160,7 +243,7 @@ main {
   clip-path: circle(150% at 100% 100%);
   transition: clip-path 1s ease-in-out;
 }
-.loader-hide{
+.loader-hide {
   clip-path: circle(0% at 100% 100%);
 }
 
