@@ -1,3 +1,5 @@
+@import url("https://fonts.cdnfonts.com/css/the-scientist");
+
 * {
   margin: 0;
   padding: 0;
@@ -23,7 +25,6 @@ main {
     align-items: center;
     .logo {
       width: 100%;
-      height: 100%;
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
@@ -76,14 +77,16 @@ main {
   .contactModal {
     width: 100%;
     height: 100vh;
+    padding: 0px 20px;
     color: #fff;
     z-index: 999;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: 0.3s visibility ease-in, opacity 0.3s ease-out;
+    position: relative;
     .contatWrapper {
-      max-width: 360px;
+      width: 360px;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -96,9 +99,10 @@ main {
         justify-content: center;
         align-items: center;
         gap: 20px;
-        input {
-          height: 100%;
+        input,
+        textarea {
           width: 100%;
+          height: 100%;
           outline: none;
           background: transparent;
           color: #fff;
@@ -111,6 +115,13 @@ main {
           &::placeholder {
             font-size: 12px;
           }
+        }
+        textarea {
+          height: 60px;
+          max-width: 100%;
+          min-width: 100%;
+          min-height: 30px;
+          max-height: 100px;
         }
       }
       .contactFooter {
@@ -137,6 +148,32 @@ main {
         .btnCancel {
           font-size: 33px;
         }
+      }
+    }
+    .copyright {
+      position: absolute;
+      bottom: 0;
+      padding: 5px 30px;
+      font-size: 13px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .pablo {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1rem;
+        font-family: "The Scientist", sans-serif;
+      }
+    }
+  }
+}
+
+@media (min-width: 800px) {
+  main {
+    .contactModal {
+      .contatWrapper {
+        width: 400px;
       }
     }
   }
